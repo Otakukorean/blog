@@ -5,7 +5,8 @@ const nextConfig = {
     } ,
     typescript : {
         ignoreBuildErrors : true
-    }
+    } ,
+    env : {NEXTAUTH_URL : "https://blog1-4rvj.onrender.com"}
 }
 
 module.exports = nextConfig
