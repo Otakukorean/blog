@@ -13,7 +13,7 @@ const SocialButtons = () => {
   
     const onClick = (provider: "google" | "github") => {
       signIn(provider, {
-        callbackUrl: callbackUrl || DEFAULT_LOGIN_REDIRECT,
+        callbackUrl: DEFAULT_LOGIN_REDIRECT,
       });
     }
   
