@@ -18,7 +18,7 @@ const PinnedPosts = async () => {
         title={post.title}
         description={post.Content}
         image={post.image}
-        className={i === 3 || i === 6 ? 'md:col-span-2' : ''}
+        className={i === 3 || i === 6 ? 'md:col-span-2 hero' : ''}
         id={post.id}
       />
     ))}
