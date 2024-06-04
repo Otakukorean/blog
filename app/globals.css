@@ -47,7 +47,7 @@ body {
 }
 
 .ContentWrapper,.hero{
-  img , figure {
+  figure {
     display: none;
   }
 }

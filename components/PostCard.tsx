@@ -45,7 +45,7 @@ const PostCard = ({date , id ,image ,title,content} : PostProps) => {
             </div>
             {/* Description */}
             <div>
-            <p dangerouslySetInnerHTML={{__html : content}} className={cn('text-sm font-light text-wrap max-w-[500px] line-clamp-2 text-[#ffffffc2] ContentWrapper', CairoFont.className)}>
+            <p dangerouslySetInnerHTML={{__html : content}} className={cn('text-sm font-light text-wrap max-w-[500px] line-clamp-1 md:line-clamp-2 text-[#ffffffc2] ContentWrapper', CairoFont.className)}>
                           
             </p>
 
