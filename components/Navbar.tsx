@@ -52,7 +52,7 @@ const Navbar = () => {
                     <span className={cn(font.className)}>ابحث عن مقال</span>
                 </Button>
                 ) : (
-                    <CiSearch className='transition-all ease text-white w-6 h-6 cursor-pointer hover:text-white/75'/>
+                    <CiSearch onClick={() => searchModal.onOpen()} className='transition-all ease text-white w-6 h-6 cursor-pointer hover:text-white/75'/>
                 )
             }
             {user?.role === 'ADMIN' &&<Link href={'/write'}><FaRegPenToSquare  className='transition-all ease text-white w-5 h-5 cursor-pointer hover:text-white/75' /></Link> }
