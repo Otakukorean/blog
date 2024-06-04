@@ -4,5 +4,4 @@ export interface PostProps {
     image : string ;
     date : any ;
     content : string ;
-    PostTags ?: {tag : {name : string , id : string}} []
 }

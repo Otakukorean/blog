@@ -21,7 +21,7 @@ const page =async (props: PageProps) => {
       <HeaderTilte label='المقالات' />
       <PostCardWrapper>
         {data.map((post) => (
-          <PostCard content={post.Content} date={post.createdAt} id={post.id} image={post.image} title={post.title} PostTags={post.PostTags} key={post.id} />
+          <PostCard content={post.Content} date={post.createdAt} id={post.id} image={post.image} title={post.title}  key={post.id} />
         ))}
       </PostCardWrapper>
       <footer>
